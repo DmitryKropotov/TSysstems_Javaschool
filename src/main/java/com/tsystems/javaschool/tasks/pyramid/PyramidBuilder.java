@@ -34,7 +34,7 @@ public class PyramidBuilder {
             final int BEGINNING_J = 2*(int)n-2- ((int)n - 1 - i);
             for (int j = BEGINNING_J; j >= 2*(int)n-2-BEGINNING_J; j = j - 2) {
                 result[i][j] = inputNumbersAsArray[index];
-                //index--;
+                index--;
             }
         }
         return result;
