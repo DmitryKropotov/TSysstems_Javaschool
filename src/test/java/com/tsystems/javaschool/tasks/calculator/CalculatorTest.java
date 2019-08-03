@@ -267,4 +267,31 @@ public class CalculatorTest {
         Assert.assertEquals(expectedResult, result);
     }
 
+    @Test
+    public void evaluate20() {
+        //given
+        String input = "4*10.00001";
+        String expectedResult = "40";
+
+        //run
+        String result = calc.evaluate(input);
+
+        //assert
+        Assert.assertEquals(expectedResult, result);
+
+    }
+
+    @Test
+    public void evaluate21() {
+        //given
+        String input = "12.33*5.6257";
+        String expectedResult = "69.3649";
+
+        //run
+        String result = calc.evaluate(input);
+
+        //assert
+        Assert.assertEquals(expectedResult, result);
+    }
+
 }
