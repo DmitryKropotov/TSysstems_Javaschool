@@ -20,7 +20,7 @@ public class PyramidBuilder {
         //where a(1) = 1, d = 1, n - number of elements in last row, S(n) - length of list. Making arithmetical transformations, we have n = (-1+-sqrt(1+8*S(n))/2
         //We take positive value of n = (-1+sqrt(1+8*S(n)))/2
         double n = (-1+Math.sqrt(1+8*inputNumbers.size()))/2;
-        if (n != (int)n || inputNumbers.contains(null)) {//If n is not integer or input list contains or input list contains null, it's not ok
+        if (n != Math.round(n) || inputNumbers.contains(null)) {//If n is not integer or input list contains or input list contains null, it's not ok
             throw new CannotBuildPyramidException();
         }
         int[] inputNumbersAsArray = new int[inputNumbers.size()];
