@@ -14,9 +14,8 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 * Author name : {Dmitry Kropotov}
 * Codeship : {https://app.codeship.com/projects/20685500-96d6-0137-9eba-5250dd8b8ac6}
 
-Example of Codeship badge. Please remove the example before you send us the link. 
-[ ![Codeship Status for tschool/javaschoolexam](https://app.codeship.com/projects/a9af8940-d130-0134-89a6-5e8aaaa2a5a2/status?branch=master)](https://app.codeship.com/projects/20685500-96d6-0137-9eba-5250dd8b8ac6)
-
+Example of Codeship badge. Please remove the example before you send us the link.
+[![Codeship Status for DmitryKropotov/TSysstems_Javaschool](https://app.codeship.com/projects/20685500-96d6-0137-9eba-5250dd8b8ac6/status?branch=master)](https://app.codeship.com/projects/357530)
 
 ### How to start?  ###
 * Install [GIT](https://git-scm.com/) and [Maven](https://maven.apache.org)
